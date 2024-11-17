@@ -1,4 +1,4 @@
 # WebScrapping
-This program is fully functional and getting the data from RSS Feed URL. In RSS Feed URL there is a tag of URL and based on the provided URL it is scrapping the all 
-news from individual URL and storing into a dataframe. Based on the df creating the CSV file. Later this python program can be run into a batch file and can be 
-schedule it as per desire frequency. So that we can fetch the news as per requirement. In this file there is an option for to insert the data into oracle db only.
+This Python program is designed to efficiently extract and process news data from RSS Feed URLs. It retrieves the RSS feed, identifies specific URLs within the feed, and scrapes all news articles from each URL. The extracted data is organized into a DataFrame, which is then used to generate a CSV file. Additionally, the program includes functionality to insert the processed data into an Oracle database if required.  
+
+To automate the process, the script can be converted into a batch file and scheduled to run at desired intervals, ensuring timely and consistent fetching of news as per requirements.
